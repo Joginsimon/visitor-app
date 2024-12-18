@@ -1,8 +1,58 @@
 <LinearLayout android:layout_height="match_parent"
     android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#08F2CB"
+    android:gravity="center"
     xmlns:android="http://schemas.android.com/apk/res/android">
+
     <TextView
+        android:layout_margin="10dp"
+        android:text="firstname"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text=""
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/usr"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:text="lastname"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/lnm"
+        android:inputType="number"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_margin="10dp"
+        android:text="purpose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/prps"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_margin="10dp"
+        android:text="WhomToMeet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/whm"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/lgn"
+        android:background="#0A98F0"
+        android:textColor="#E64319"
+        android:layout_margin="10dp"
+        android:text="Login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
 </LinearLayout>
